@@ -1,0 +1,30 @@
+{
+    "makefile.configureOnOpen": false,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "workbench.editor.empty.hint": "hidden",
+    "vim.normalModeKeyBindingsNonRecursive": [
+    {
+        "before": ["y", "y"],
+        "after": ["\"", "+", "y", "y"]
+    },
+    {
+      "before": ["d"],
+      "after": ["\"","_", "d"]
+    }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+    {
+        "before": ["y"],
+        "after": ["\"", "+", "y"]
+    },
+    {
+        "before": ["d"],
+        "after": ["\"","_", "d"]
+    }
+],
+"editor.lineNumbers": "relative",
+"vim.handleKeys": {
+    "<C-p>": false
+},
+"chat.agent.enabled": false
+}
