@@ -2,6 +2,7 @@
     "makefile.configureOnOpen": false,
     "workbench.colorTheme": "Gruvbox Dark Medium",
     "workbench.editor.empty.hint": "hidden",
+    "vim.leader": " ",
     "vim.normalModeKeyBindingsNonRecursive": [
     {
         "before": ["y", "y"],
@@ -10,6 +11,22 @@
     {
       "before": ["d"],
       "after": ["\"","_", "d"]
+    },
+    {
+        "before": ["c"],
+        "after": ["\"","_", "c"]
+    },
+    {
+        "before": ["Y"],
+        "after": ["\"", "+", "y", "$"]
+    },
+    {
+        "before": ["<leader>", "h"],
+        "commands": ["workbench.action.previousEditor"]
+    },
+    {
+        "before": ["<leader>", "l"],
+        "commands": ["workbench.action.nextEditor"]
     }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
@@ -22,9 +39,14 @@
         "after": ["\"","_", "d"]
     }
 ],
-"editor.lineNumbers": "relative",
 "vim.handleKeys": {
     "<C-p>": false
 },
-"chat.agent.enabled": false
+"editor.lineNumbers": "relative",
+"editor.cursorSurroundingLines": 10,
+"chat.agent.enabled": false,
+"terminal.integrated.initialHint": false,
+"explorer.confirmDragAndDrop": false,
+"chat.titleBar.signIn.enabled": false,
+"chat.disableAIFeatures": true
 }
