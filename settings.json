@@ -1,0 +1,82 @@
+{
+    "chat.agent.enabled": false,
+    "dart.flutterSdkPath": "C:\\Users\\thale\\Documents\\flutter",
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "vim.useSystemClipboard": true,
+    "editor.lineNumbers": "relative",
+    "vim.leader": " ",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "r"
+            ],
+            "commands": [
+                "flutter.hotReload"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "R"
+            ],
+            "commands": [
+                "flutter.hotRestart"
+            ]
+        },
+        {
+            "before": ["y", "y"],
+            "after": ["\"", "+", "y", "y"]
+        },
+        {
+            "before": ["<leader>", "h"],
+            "commands": ["workbench.action.previousEditor"]
+        },
+        {
+            "before": ["<leader>", "l"],
+            "commands": ["workbench.action.nextEditor"]
+        },
+        {
+            "before": ["d"],
+            "after": ["\"","_", "d"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+    {
+        "before": ["y"],
+        "after": ["\"", "+", "y"]
+    },
+    {
+        "before": ["d"],
+        "after": ["\"","_", "d"]
+    }
+],
+    "makefile.configureOnOpen": false,
+    "redhat.telemetry.enabled": false,
+    "terminal.integrated.suggest.inlineSuggestion": "off",
+    "terminal.integrated.suggest.enabled": false,
+    "terminal.integrated.suggest.providers": {
+        "vscode.terminal-suggest": false,
+        "lsp": false
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "dart": false
+    },
+    "godotTools.editorPath.godot4": "\"C:\\Program Files\\Godot_v4.6\\Godot_v4.6-stable_win64.exe\"",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.editor.empty.hint": "hidden",
+    "remote.SSH.remotePlatform": {
+        "raspberrypi": "linux"
+    },
+    "cmake.environment": {
+        "PATH": "c:/Users/thale/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.45.0-win32-x64/resources/cube-cmake/win32/x86_64;c:\\Users\\thale\\.vscode\\extensions\\stmicroelectronics.stm32cube-ide-core-1.3.0-win32-x64\\resources\\binaries\\win32\\x86_64;${env.PATH}"
+    },
+    "debug.allowBreakpointsEverywhere": true,
+    "cmake.cmakePath": "C:\\Program Files\\CMake\\bin",
+    "stm32cube-ide-build-cmake.ignoreCubeProjectDiscovery": false,
+    "C_Cpp.intelliSenseEngine": "disabled"
+}
